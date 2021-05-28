@@ -1,0 +1,84 @@
+.checkoutContainer{
+    width: 650px;
+    height: 550px;
+    margin: auto;
+    align-items:center;
+    position: relative;
+    padding: 25px;
+}
+
+.divBtn{
+    width:100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.backBtn{
+    width:200px;
+    
+    margin-left:45px!important;
+}
+
+.payBtn{
+    width: 200px;
+    margin-right: 45px!important;
+}
+
+
+
+/* .formArea{
+    align-items: center!important;
+    display:flex!important;
+    margin-left:10px;
+    margin-bottom: 40px!important;
+} */
+
+.textInput {
+    padding: 5px;
+    margin-left: 21px;
+    width: 250px;
+}
+
+.inputDetail{
+    margin-left:23px;
+}
+
+.checkout-form{
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: -3px -3px 2px rgba(255,255,255,0.3),
+    5px 5px 5px 8px  rgba(0,0,0,0.2),
+    -2px 8px 8px 8px rgba(0,0,0,0.2);
+}
+
+
+.titleForm{
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 20px;
+    padding-top: 35px!important;
+    font-size: 1.5rem!important;
+}
+
+.userDetails {
+    width:600px;
+    height:450px;
+    display:flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: space-between;
+    margin: auto;
+}
+
+
+.orderSubmittedFormArea{
+    align-items: center;
+    display: block;
+    text-align: center;
+    margin-top:50px;
+}
+
+.toHomeBtn{
+    margin-top: 70px!important;
+}

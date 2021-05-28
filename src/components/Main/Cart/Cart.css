@@ -1,0 +1,79 @@
+.cartItemsSection{
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; */
+    margin-top:30px;
+    width: 100%;
+    /* min-height: 100vh; */
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    /* padding: 10px; */
+}
+
+.orderSummary{
+    background-color: white;
+    position: sticky;
+    bottom:0;
+    width: 100%;    
+    display: flex;
+    justify-content: space-between;
+    /* padding: 20px; */
+    /* left: 210px; */
+     
+    align-items: center;
+    z-index:100;
+}
+
+.btnSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 150px;
+}
+
+.btnSection > Button{
+    margin: 10px;
+}
+
+.footerCart{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    /* justify-content: space-between; */
+}
+
+.textCart { 
+    font-size: 2rem!important;
+    
+}
+
+.linkText {
+    text-decoration: none!important;
+}
+
+.textDiv{
+    width:50%;
+    margin: auto;   
+    align-items: center;
+    text-align: center;
+
+}
+
+
+@media ( max-width: 750px) {
+    .footerCart{
+        width: 100%;
+        display: block;
+        align-items: center;
+        margin: auto;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .btnSection{
+        display:block;
+        text-align: center;
+        align-items: center;
+        margin: auto;
+    }
+}

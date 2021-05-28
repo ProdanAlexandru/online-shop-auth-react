@@ -1,0 +1,44 @@
+.headerSection {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    position: sticky;
+    max-height: 120px;
+    border-bottom-style: groove;
+    margin-bottom:25px;
+    z-index: 100;
+}
+
+.headerLogo {
+    width: 100px;
+}
+
+.titleSection{
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    
+}
+
+.cartIconArea{
+    display: flex;
+    align-items:center;
+    margin-right: 25px;
+}
+
+.cartIcon{
+    color: black;
+}
+
+.titleText{
+    font-size: 1.4rem!important;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.accountIcon{
+    color: black;
+    font-size:26px!important;
+}
